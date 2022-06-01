@@ -213,6 +213,7 @@ th{
     margin: 0px;
     padding-top: 0;
     padding-bottom: 0;
+    flex: 0 0 100%;
 }
 #footerBox{
     background-color: var(--white);
