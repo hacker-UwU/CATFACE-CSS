@@ -177,6 +177,21 @@ table, fieldset{
     box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 30px;
 }
 
+textarea{
+    padding: 5px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--grey);
+    background-color: var(--white);
+    outline: none;
+    height: 200px;
+    width: 200px;
+}
+
 legend{
     padding: 5px;
     padding-left: 10px;
