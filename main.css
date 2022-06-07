@@ -45,6 +45,7 @@ p{
     font-size: 12px;
     margin-top: 12px;
     margin-bottom: 12px;
+    word-wrap: break-word;
 }
 h1{
     font-size: 24px;
@@ -78,6 +79,8 @@ h6{
 }
 hr{
     border: 1px solid var(--black);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 header{
     display: flex;
@@ -137,6 +140,7 @@ button, select{
     border-color: var(--white);
     transition: all 100ms ease; 
     outline: none;
+    min-height: 5px;
 }
 button:hover, select:hover {
     border-color: var(--color1);
@@ -157,6 +161,7 @@ input{
     border-color: var(--grey);
     background-color: var(--white);
     outline: none;
+    min-height: 5px;
 }
 input:hover{
     border-color: var(--color1);
@@ -202,7 +207,8 @@ legend{
     border-color: var(--white);
     border-collapse: collapse;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 30px;  
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 30px;
+    min-height: 5px;
 }
 td, th{
     padding: 5px;
@@ -211,9 +217,22 @@ td, th{
     border-style: solid;
     border-width: 2px;
     border-color: var(--grey);
+    height: 5px;
 }
 th{
     background-color: var(--l-grey);
+}
+a{
+    color: var(--color1);
+    display: inline-block;
+    margin-left: 10px;
+    transition: all 100ms ease; 
+}
+a:hover{
+    color: var(--color1);
+}
+a:visited{
+    color: var(--color2);
 }
 
 #title{
@@ -261,19 +280,6 @@ th{
     display: flex;
     list-style-type: none;
 }
-a{
-    color: var(--color1);
-    display: inline-block;
-    margin-left: 10px;
-    transition: all 100ms ease; 
-}
-a:hover{
-    color: var(--color1);
-}
-a:visited{
-    color: var(--color2);
-}
-
 .mainMenu li{
     color: var(--black);
     display: inline-block;
