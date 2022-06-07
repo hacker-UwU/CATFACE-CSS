@@ -96,6 +96,7 @@ header{
 }
 main{
     min-width: 50vmax;
+    max-width: 90%;
     margin: 50px;
     padding: 15px;
     background-color: var(--white);
@@ -213,7 +214,7 @@ th{
     margin: 0px;
     padding-top: 0;
     padding-bottom: 0;
-    flex: 0 0 100%;
+    min-height: 100vh;
 }
 #footerBox{
     background-color: var(--white);
