@@ -146,7 +146,6 @@ button:active, select:active{
     background-color: var(--color1);
     color: var(--white);
 }
-select{}
 input{
     padding: 5px;
     margin: 5px;
@@ -314,4 +313,10 @@ a:visited{
     border: none;
     border-style: none;
     box-shadow: none;
+}
+.fullTextarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
 }
