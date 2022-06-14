@@ -278,6 +278,7 @@ a:visited{
 .mainMenu{
     margin-left: 30px;
     margin-right: 30px;
+    padding: 0 !important;
     display: flex;
     list-style-type: none;
 }
