@@ -285,7 +285,7 @@ a:visited{
 .mainMenu li{
     color: var(--black);
     display: inline-block;
-    margin-left: 10px;
+    margin: 0;
     transition: all 100ms ease; 
     text-decoration: none;
 }
